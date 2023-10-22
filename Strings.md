@@ -7,9 +7,13 @@ Strings are immutable in Python, which means they cannot be modified after they 
 
 Strings can also be compared using the == operator, which returns True if two strings are equal and False otherwise. For example, ‘Hello’ == ‘World’ returns False, while ‘Hello’ == ‘Hello’ returns True.
 
-Concatenation: This operation joins two or more strings together to form a new string. For example, ‘Hello’ + ‘World’ returns ‘HelloWorld’. The time complexity of this operation depends on the length of the strings. In Python, concatenation is 0 (n), where n is the total length of the strings, because it creates a new string object.
-Removing: O (n), where n is the length of the string, because it creates a new string object without the removed character and copies the remaining characters from the original string.
-Modifying: O (n), where n is the length of the string, because it creates a new string object with the modified character and copies the other characters from the original string.
-Slicing: O (k), where k is the length of the substring, because it creates a new string object with the sliced characters and copies them from the original string.
+## Concatenation:
+This operation joins two or more strings together to form a new string. For example, ‘Hello’ + ‘World’ returns ‘HelloWorld’. The time complexity of this operation depends on the length of the strings. In Python, concatenation is 0 (n), where n is the total length of the strings, because it creates a new string object.
+## Removing:
+O (n), where n is the length of the string, because it creates a new string object without the removed character and copies the remaining characters from the original string.
+## Modifying:
+O (n), where n is the length of the string, because it creates a new string object with the modified character and copies the other characters from the original string.
+## Slicing:
+O (k), where k is the length of the substring, because it creates a new string object with the sliced characters and copies them from the original string.
 
 
