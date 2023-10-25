@@ -16,7 +16,7 @@ O (n), where n is the length of the string, because it creates a new string obje
 ## Slicing:
 O (k), where k is the length of the substring, because it creates a new string object with the sliced characters and copies them from the original string.
 
-##Operations of string:
+## Operations of string:
 
 lower() and upper(): These methods return the lowercase or uppercase version of the string. For example, "Hello".lower() returns "hello" and "World".upper() returns "WORLD".
 strip(): This method returns a string with whitespace removed from the start and end. For example, "  Python  ".strip() returns "Python".
