@@ -33,3 +33,12 @@ This method returns a view object that contains the list of values of the dictio
 This operator tests if a key is in the dictionary. It returns True if the key is found, and False otherwise. For example, "a" in {"a": 1, "b": 2} returns True and "c" in {"a": 1, "b": 2} returns False.
 ## not in: 
 This operator tests if a key is not in the dictionary. It returns True if the key is not found, and False otherwise. For example, "c" not in {"a": 1, "b": 2} returns True and "a" not in {"a": 1, "b": 2} returns False.
+# when to use dictionary and when to use default dictionary 
+
+Use defaultdict when you want to create a dictionary that can handle missing keys more gracefully and efficiently. For example, if you want to create a dictionary of lists, sets, counters, or other collections, defaultdict can save you the hassle of checking if the key exists or not before adding values. 😊
+
+Use defaultdict when you want to create a dictionary that can generate values for keys on the fly using a custom function. For example, if you want to create a dictionary that maps numbers to their square roots, factorials, or other mathematical functions, defaultdict can save you the time and space of calculating and storing them beforehand. 😊
+
+Use normal dict when you want to create a dictionary that has a fixed set of keys and values that are known in advance. For example, if you want to create a dictionary that maps names to phone numbers, colors to hex codes, or countries to capitals, normal dict can be more straightforward and intuitive. 😊
+
+Use normal dict when you want to create a dictionary that does not need a default value for missing keys or when you want to handle the KeyError exception yourself. For example, if you want to create a dictionary that maps words to their definitions, synonyms, or antonyms, normal dict can give you more control and flexibility over how to deal with unknown words. 😊
