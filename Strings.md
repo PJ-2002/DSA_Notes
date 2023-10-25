@@ -18,10 +18,15 @@ O (k), where k is the length of the substring, because it creates a new string o
 
 ## Operations of string:
 
-lower() and upper(): These methods return the lowercase or uppercase version of the string. For example, "Hello".lower() returns "hello" and "World".upper() returns "WORLD".
-strip(): This method returns a string with whitespace removed from the start and end. For example, "  Python  ".strip() returns "Python".
-find() and replace(): These methods search through strings for a pattern, or replace parts of strings with another substring. For example, "Python is fun".find("fun") returns 10, which is the index of the first occurrence of "fun" in the string. "Python is fun".replace("fun", "awesome") returns "Python is awesome".
-isalpha(), isdigit(), and isspace(): These methods test if all the characters in the string are in the various character classes. For example, "abc".isalpha() returns True, "123".isdigit() returns True, and "   ".isspace() returns True.
-join() and split(): These methods convert the elements of an iterable into a string, or split the string at the specified separator and return a list. For example, ",".join(["a", "b", "c"]) returns "a,b,c", and "a,b,c".split(",") returns ["a", "b", "c"].
+## lower() and upper():
+These methods return the lowercase or uppercase version of the string. For example, "Hello".lower() returns "hello" and "World".upper() returns "WORLD".
+## strip(): 
+This method returns a string with whitespace removed from the start and end. For example, "  Python  ".strip() returns "Python".
+## find() and replace(): 
+These methods search through strings for a pattern, or replace parts of strings with another substring. For example, "Python is fun".find("fun") returns 10, which is the index of the first occurrence of "fun" in the string. "Python is fun".replace("fun", "awesome") returns "Python is awesome".
+## isalpha(), isdigit(), and isspace(): 
+These methods test if all the characters in the string are in the various character classes. For example, "abc".isalpha() returns True, "123".isdigit() returns True, and "   ".isspace() returns True.
+## join() and split(): 
+These methods convert the elements of an iterable into a string, or split the string at the specified separator and return a list. For example, ",".join(["a", "b", "c"]) returns "a,b,c", and "a,b,c".split(",") returns ["a", "b", "c"].
 
 
